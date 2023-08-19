@@ -99,6 +99,11 @@
             opcaoIdentificado = Console.ReadLine().ToUpper();
         }
 
+
+
+
+//OBS: Dar um jeito de colocar o id do pedido (com o sabor da pizza, acompanhamento etc) e os dados do cliente na lista de pedidos pra printar certo
+//Essa lista ta sem informação, mas tem que ser a "junção" da lista de Pedido e de Cliente em um lista só pedidoIdentificado
         Console.WriteLine("Os pedidos inseridos foram: ");
         for (int i = 0; i < PedidoIdentificado.pedidos.Count; i++)
         {
@@ -109,7 +114,7 @@
         }
 
 
-Console.WriteLine("Fim");
+        Console.WriteLine("Fim");
 
     }
 }
