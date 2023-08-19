@@ -5,14 +5,17 @@
         Cliente cliente = new();
         Pedido pedido = new();
         Pizza pizza = new();
-
+        Bebida bebida = new();
         PedidoIdentificado pedidoIdentificado = new();
 
+
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
         Console.WriteLine("Bem-vindo!: ");
-
-
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
+        
+        Console.WriteLine();
         Console.WriteLine("CLIENTES!");
-
+        Console.WriteLine();
         string opcao = "S";
 
         while (opcao == "S")
@@ -41,6 +44,9 @@
                    Console.WriteLine("Nome: " + clienteTemporarioLista.Nome);
                } */
 
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
+
         Console.WriteLine("Os clientes inseridos foram:");
         for (int i = 0; i < Cliente.clientes.Count; i++)
         {
@@ -49,9 +55,13 @@
             Console.WriteLine("----------");
         }
 
-        //PEDIDOS
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
 
+        //PEDIDOS
+        Console.WriteLine();
         Console.WriteLine("PEDIDOS!");
+        Console.WriteLine();
 
         string opcaoPedido = "S";
 
@@ -69,7 +79,8 @@
             //se a opção foi S ele continuara adiconando clientes
             opcaoPedido = Console.ReadLine().ToUpper();
         }
-
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
         Console.WriteLine("As pizzas inseridos foram:");
         for (int i = 0; i < Pizza.pizzas.Count; i++)
         {
@@ -78,12 +89,55 @@
             Console.WriteLine("----------");
         }
 
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
+
         //BEBIDAS
+
+        Console.WriteLine();
+        Console.WriteLine("BEBIDAS!");
+        Console.WriteLine();
+  
+        string opcaoBebida = "S";
+
+        while (opcaoBebida == "S")
+        {
+            Console.WriteLine("Informe a bebida que deseja adicionar: ");
+            bebida.NomeBebida = Console.ReadLine();
+
+            Console.WriteLine("Informe se deseja adicionar gelo em sua bebida: ");
+            bebida.Gelo = Console.ReadLine();
+
+            Console.WriteLine("Informe se deseja adicionar limão em sua bebida, se sim quantas rodelas?");
+            bebida.Limao = Console.ReadLine();
+
+            Bebida.Criar(bebida.NomeBebida, bebida.Gelo, bebida.Limao);
+
+            Console.WriteLine("Deseja adicionar outra bebida ao pedido? (S/N)");
+            opcaoBebida = Console.ReadLine().ToUpper();
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
+
+        Console.WriteLine("As bebidas inseridas foram: ");
+        for (int i = 0; i < Bebida.bebidas.Count; i++)
+        {
+            Console.WriteLine("Bebida: " + Bebida.bebidas[i].NomeBebida);
+            Console.WriteLine("Gelo: " + Bebida.bebidas[i].Gelo);
+            Console.WriteLine("Limão: " + Bebida.bebidas[i].Limao);
+            Console.WriteLine("----------");            
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
 
 
         //PEDIDOS IDENTIFICADOS
+        Console.WriteLine();
         Console.WriteLine("PEDIDOS IDENTIFICADOS!");
-
+        Console.WriteLine();
+     
         string opcaoIdentificado = "S";
 
         while (opcaoIdentificado == "S")
@@ -99,8 +153,8 @@
             opcaoIdentificado = Console.ReadLine().ToUpper();
         }
 
-
-
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━"); 
 
 //OBS: Dar um jeito de colocar o id do pedido (com o sabor da pizza, acompanhamento etc) e os dados do cliente na lista de pedidos pra printar certo
 //Essa lista ta sem informação, mas tem que ser a "junção" da lista de Pedido e de Cliente em um lista só pedidoIdentificado
@@ -112,9 +166,14 @@
             Console.WriteLine("CPF do cliente: " + pedidoIdentificado.Cliente.Cpf);
             Console.WriteLine("----------");
         }
+        Console.WriteLine();
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
+        Console.WriteLine();
 
+        Console.WriteLine("◆━━━━━━◆❃◆━━━━━━◆");
+        Console.WriteLine("Fim!");
+        Console.WriteLine("◆━━━━━━◆❃◆━━━━━━◆");
 
-        Console.WriteLine("Fim");
 
     }
 }

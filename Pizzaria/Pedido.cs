@@ -1,9 +1,9 @@
 public class Pedido
 {
     private int _id;
-    private string _saborPizza;
-    private string _bebida;
-    private string _acompanhamento;
+    //private string _saborPizza;
+   // private string _bebida;
+    //private string _acompanhamento;
     public static List<Pedido> pedidos = new();      
 
     public int Id
