@@ -1,0 +1,14 @@
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\bin\Debug\net7.0\Pizzaria.exe
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\bin\Debug\net7.0\Pizzaria.deps.json
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\bin\Debug\net7.0\Pizzaria.runtimeconfig.json
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\bin\Debug\net7.0\Pizzaria.dll
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\bin\Debug\net7.0\Pizzaria.pdb
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\Pizzaria.GeneratedMSBuildEditorConfig.editorconfig
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\Pizzaria.AssemblyInfoInputs.cache
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\Pizzaria.AssemblyInfo.cs
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\Pizzaria.csproj.CoreCompileInputs.cache
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\Pizzaria.dll
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\refint\Pizzaria.dll
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\Pizzaria.pdb
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\Pizzaria.genruntimeconfig.cache
+W:\Users\GABRIELLE\Downloads\ProjetoPizzaria\Pizzaria\obj\Debug\net7.0\ref\Pizzaria.dll
