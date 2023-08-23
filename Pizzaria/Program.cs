@@ -148,6 +148,7 @@
             Console.WriteLine("Informe o CPF do cliente: ");
             string cpf = Console.ReadLine();
             pedidoIdentificado.Cliente = new(cpf);
+            PedidoIdentificado.pedidos.Add(pedidoIdentificado);
 
             Console.WriteLine("Deseja adicionar um novo pedido? (S/N)");
             opcaoIdentificado = Console.ReadLine().ToUpper();
@@ -159,11 +160,11 @@
 //OBS: Dar um jeito de colocar o id do pedido (com o sabor da pizza, acompanhamento etc) e os dados do cliente na lista de pedidos pra printar certo
 //Essa lista ta sem informação, mas tem que ser a "junção" da lista de Pedido e de Cliente em um lista só pedidoIdentificado
         Console.WriteLine("Os pedidos inseridos foram: ");
-        for (int i = 0; i < PedidoIdentificado.pedidos.Count; i++)
+        foreach (PedidoIdentificado pedidoIdentificadoT in PedidoIdentificado.pedidos)
         {
-            Console.WriteLine("Número do pedido: " + pedidoIdentificado.Id);
-            Console.WriteLine("Nome do cliente: " + pedidoIdentificado.Cliente.Nome);
-            Console.WriteLine("CPF do cliente: " + pedidoIdentificado.Cliente.Cpf);
+            Console.WriteLine("Número do pedido: " + pedidoIdentificadoT.Id);
+            Console.WriteLine("Nome do cliente: " + pedidoIdentificadoT.Cliente.Nome);
+            Console.WriteLine("CPF do cliente: " + pedidoIdentificadoT.Cliente.Cpf);
             Console.WriteLine("----------");
         }
         Console.WriteLine();
@@ -174,6 +175,6 @@
         Console.WriteLine("Fim!");
         Console.WriteLine("◆━━━━━━◆❃◆━━━━━━◆");
 
-
+//ToString, ver pq o nome n deu
     }
 }

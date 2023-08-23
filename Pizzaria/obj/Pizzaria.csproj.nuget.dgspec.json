@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Users\\GABRIELLE\\Downloads\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj": {}
+    "C:\\Users\\Aluno\\Documents\\GitHub\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj": {}
   },
   "projects": {
-    "W:\\Users\\GABRIELLE\\Downloads\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj": {
+    "C:\\Users\\Aluno\\Documents\\GitHub\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Users\\GABRIELLE\\Downloads\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\GitHub\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj",
         "projectName": "Pizzaria",
-        "projectPath": "W:\\Users\\GABRIELLE\\Downloads\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj",
-        "packagesPath": "C:\\Users\\GABRIELLE\\.nuget\\packages\\",
-        "outputPath": "W:\\Users\\GABRIELLE\\Downloads\\ProjetoPizzaria\\Pizzaria\\obj\\",
+        "projectPath": "C:\\Users\\Aluno\\Documents\\GitHub\\ProjetoPizzaria\\Pizzaria\\Pizzaria.csproj",
+        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aluno\\Documents\\GitHub\\ProjetoPizzaria\\Pizzaria\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\GABRIELLE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
