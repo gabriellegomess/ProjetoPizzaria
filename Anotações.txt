@@ -1,0 +1,18 @@
+"ModeloPizza" receberia o tamanho da pizza, os sabores que ela teria,
+acompanhamento.
+"Bebida" - ficaria igual, se quer gelo, limão
+Faria a classe pizza que puxaria "ModeloPizza" e Bebida e ela teria que
+gerar um pedido, com um id, que linkaria com o cliente, o cpf digitado
+já puxaria os dados desse cliente, e nesse pedido adicionaria a pizza 
+q quer, e salvaria em algum lugar para mostrar depois todos os pedidos
+do "dia"(no caso os pedidos adc qnd rodou o programa).
+
+Mas tem q fazer de uma forma como se esses sabores e bebidas já existissem
+e o usuário poderia escolher qual ele quer dentre esses que
+já existem, como se ele só selecionasse.
+
+(talvez um switch igual no projeto de java, q o switch puxava as opções
+e retornava as funções de cada uma delas, mas pra selecionar a pizza, 
+bebida, acompanhamento, e salvaria no pedido do cliente)
+
+Fazer um override ToString pra mostrar "certo".
