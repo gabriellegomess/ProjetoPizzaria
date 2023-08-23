@@ -12,7 +12,7 @@
         Console.WriteLine("━━━━━━◇◆◇━━━━━━");
         Console.WriteLine("Bem-vindo!: ");
         Console.WriteLine("━━━━━━◇◆◇━━━━━━");
-        
+
         Console.WriteLine();
         Console.WriteLine("CLIENTES!");
         Console.WriteLine();
@@ -97,7 +97,7 @@
         Console.WriteLine();
         Console.WriteLine("BEBIDAS!");
         Console.WriteLine();
-  
+
         string opcaoBebida = "S";
 
         while (opcaoBebida == "S")
@@ -126,7 +126,7 @@
             Console.WriteLine("Bebida: " + Bebida.bebidas[i].NomeBebida);
             Console.WriteLine("Gelo: " + Bebida.bebidas[i].Gelo);
             Console.WriteLine("Limão: " + Bebida.bebidas[i].Limao);
-            Console.WriteLine("----------");            
+            Console.WriteLine("----------");
         }
 
         Console.WriteLine();
@@ -137,7 +137,7 @@
         Console.WriteLine();
         Console.WriteLine("PEDIDOS IDENTIFICADOS!");
         Console.WriteLine();
-     
+
         string opcaoIdentificado = "S";
 
         while (opcaoIdentificado == "S")
@@ -148,6 +148,7 @@
             Console.WriteLine("Informe o CPF do cliente: ");
             string cpf = Console.ReadLine();
             pedidoIdentificado.Cliente = new(cpf);
+
             PedidoIdentificado.pedidos.Add(pedidoIdentificado);
 
             Console.WriteLine("Deseja adicionar um novo pedido? (S/N)");
@@ -155,10 +156,9 @@
         }
 
         Console.WriteLine();
-        Console.WriteLine("━━━━━━◇◆◇━━━━━━"); 
+        Console.WriteLine("━━━━━━◇◆◇━━━━━━");
 
-//OBS: Dar um jeito de colocar o id do pedido (com o sabor da pizza, acompanhamento etc) e os dados do cliente na lista de pedidos pra printar certo
-//Essa lista ta sem informação, mas tem que ser a "junção" da lista de Pedido e de Cliente em um lista só pedidoIdentificado
+
         Console.WriteLine("Os pedidos inseridos foram: ");
         foreach (PedidoIdentificado pedidoIdentificadoT in PedidoIdentificado.pedidos)
         {
@@ -175,6 +175,6 @@
         Console.WriteLine("Fim!");
         Console.WriteLine("◆━━━━━━◆❃◆━━━━━━◆");
 
-//ToString, ver pq o nome n deu
+        //ToString, ver pq o nome n deu
     }
 }
